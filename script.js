@@ -9,11 +9,11 @@ const perguntas = [
         enunciado: "Assim que um aluno chega para ser classificado para sua futura casa, você, o grande Chapéu Seletor, percebe que ele é corajoso, mas tem um quê de gentiliza e sensibilidade. Para qual casa você o envia?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Grifinória, pela coragem",
                 afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Lufa Lufa, pela gentiliza e sensibilidade!",
                 afirmacao: "Quis saber como usar IA no seu dia a dia."
             }
         ]
