@@ -6,55 +6,51 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que um aluno chega para ser classificado para sua futura casa, você, o grande Chapéu Seletor, percebe que ele é corajoso, mas tem um quê de gentiliza e sensibilidade. Para qual casa você o envia?",
+        enunciado: "Frequentemente uso palavras complexas e abstratas na minha fala e escrita",
         alternativas: [
             {
-                texto: "Grifinória, pela coragem",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Sim",
+                afirmacao: "Usa palavras complexas frequentemente "
             },
             {
-                texto: "Lufa Lufa, pela gentiliza e sensibilidade!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Não",
+                afirmacao: "Não usa palavras complexas frequentemente"
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Tento ser a pessoa que espalha entusiasmo",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Sim, eu tento",
+                afirmacao: "Tenta ser essa pessoa"
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Não costumo ser assim",
+                afirmacao: "Não costuma ser esse tipo de pessoa"
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Eu quero ser uma pessoa manipulativa e que influencia os outros quando quero",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
-            },
+                texto: "Não faço isso",
+                afirmacao: "Não faz isso"
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
-            }
+                texto: "Costumo fazer isso",
+                afirmacao: "Faz isso"
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Acho natural assumir o controle quando outros estão estagnados e as coisas estão atrasadas",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
-            },
+                texto: "Sim, detesto atrasos em planejamentos e ver as pessoas sem fazer nada para mudar isso",
+                afirmacao: "Acha natural assumir o controle"
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
-            }
+                texto: "Não, deixo que a situação permaneça do jeito estagnado que está",
+                afirmacao: "Permaneço estagnado"
         ]
     },
     {
