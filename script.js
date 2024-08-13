@@ -59,7 +59,7 @@ const perguntas = [
     },
     {
         enunciado: "Mostro minha impaciência quando outros estão no caminho do progresso"
-        alternativa:[    
+        alternativas:[    
         {
                 texto: "Tento disfarçar a impaciência, mas fico impaciente",
                 afirmacao: "Sim"
