@@ -37,9 +37,11 @@ const perguntas = [
             {
                 texto: "Não faço isso",
                 afirmacao: "Não faz isso"
+            },
             {
                 texto: "Costumo fazer isso",
                 afirmacao: "Faz isso"
+            }
         ]
     },
     {
@@ -48,20 +50,24 @@ const perguntas = [
             {
                 texto: "Sim, detesto atrasos em planejamentos e ver as pessoas sem fazer nada para mudar isso",
                 afirmacao: "Acha natural assumir o controle"
+            },
             {
                 texto: "Não, deixo que a situação permaneça do jeito estagnado que está",
                 afirmacao: "Permaneço estagnado"
+            }
         ]
     },
     {
         enunciado: "Mostro minha impaciência quando outros estão no caminho do progresso"
-            {
+        alternativa:[    
+        {
                 texto: "Tento disfarçar a impaciência, mas fico impaciente",
                 afirmacao: "Sim"
             },
             {
                 texto: "Não costumo me importar com isso",
                 afirmacao: "Não"
+            }
         ]
     },
 ];
